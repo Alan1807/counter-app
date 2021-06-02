@@ -9,10 +9,10 @@ describe('Pruebas con async-await y Fetch', () => {
 
     });
 
-    test('debe de retornar No existe', async() => {
+    // test('debe de retornar No existe', async() => {
 
-        const url = await getImagen();
-        expect( url ).toBe('No existe');
-    });
+    //     const url = await getImagen();
+    //     expect( url ).toBe('No existe');
+    // });
 
 });
